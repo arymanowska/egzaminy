@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="styl1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmy</title>
+</head>
+<body id="body">
+    <div id="leftpanel">
+        <h3>Dostępne gatunki filmu</h3>
+        <ol>
+            <li>Sci-Fi</li>
+            <li>animacja</li>
+            <li>dramat</li>
+            <li>horror</li>
+            <li>komedia</li>
+        </ol>
+        <p><a href="kadr.jpg">Pobierz obraz</a></p>
+        <p><a href="repertuar-kin.pl">Sprawdź repertuar kin</a></p>
+    </div>
+    <div id="paneltop">
+        <h1>FILMOTEKA</h1>
+    </div>
+    <div id="panelmid">
+        <form action="dodaj.php" method="POST" id="form" name="form">
+            <p>Tytuł<input type="text" name="tytul"></p>
+            <p>Gatunek filmu:<input type="number" name="gatunki"></p>
+            <p>Rok produkcji:<input type="number" name="rok"></p>
+            <p>Ocena:<input type="number" name="ocena"></p>
+            <input type="submit" value="CZYŚĆ">
+            <input type="submit" value="DODAJ">
+        </form>
+    </div>
+    <div id="panelbot">
+        <img src="kadr.jpg" alt="zdjęcia filmowe">
+    </div>
+    <div id="stopka">
+        <p>Autor strony: Amelia Rymanowska</p>
+    </div>
+</body>
+</html>

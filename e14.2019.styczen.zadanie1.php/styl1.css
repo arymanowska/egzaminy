@@ -1,0 +1,64 @@
+#body{
+    font-family: Helvetica;
+    margin: 0;
+
+}
+
+#leftpanel{
+    background-color: navy;
+    color: white;
+    width: 25%;
+    height: 700px;
+    float: left;
+}
+
+#paneltop{
+    background-color: royalblue;
+    height: 100px; 
+    width: 75%;
+    text-align: center;
+    float: right;
+}
+
+#panelmid{
+    background-color: steelblue;
+    height: 300px;
+    width: 75%;
+    float: right;
+}
+
+#panelbot{
+    background-color: royalblue;
+    height: 300px;
+    width: 75%;
+    text-align: center;
+    float: right;
+}
+
+#stopka{
+    background-color: steelblue;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.h1{
+    letter-spacing: 5px;
+    float: right;
+}
+
+#form{
+    margin: 30px;
+    line-height: 3;
+    float: left;
+}
+
+#form:hover{
+    background-color: deepskyblue;
+    width: 95%;
+
+}
+
+#form p{
+    margin: 0;
+}
