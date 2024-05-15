@@ -1,6 +1,5 @@
 #body{
     font-family: Helvetica;
-    margin: 0;
 
 }
 
@@ -39,6 +38,7 @@
     background-color: steelblue;
     text-align: center;
     padding: 20px;
+    clear: both;
 }
 
 
