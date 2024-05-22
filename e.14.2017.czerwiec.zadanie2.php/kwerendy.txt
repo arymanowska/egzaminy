@@ -1,0 +1,4 @@
+1)	SELECT id, imie, nazwisko, choroba FROM pacjenci;
+2)	SELECT imie, nazwisko, leki_przepisane, opis FROM pacjenci WHERE id = 1;
+3)
+4)
