@@ -1,0 +1,2 @@
+kw1	SELECT id, imie, nazwisko FROM pacjenci;
+kw2	SELECT imie, nazwisko, choroby_przewlekle, uczulenia FROM pacjenci WHERE id = 1;
