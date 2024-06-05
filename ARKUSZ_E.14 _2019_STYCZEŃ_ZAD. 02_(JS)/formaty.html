@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styl2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatowanie</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="baner">
+        <h1>Formatowanie dokumentów HTML</h1>
+    </div>
+    <div id="panel1">
+        <h2>Przykład listy - hobby</h2>
+        <ul>
+            <li>muzyka</li>
+            <li>turystyka</li>
+            <ol>
+                <li>góry</li>
+                <li>jeziora</li>
+                <li>na rowerze</li>
+            </ol>
+            <li>książki</li>
+        </ul>
+    </div>
+    <div id="panel2">
+        <h2>Przykład tabeli - rozkład dnia</h2>
+        <table>
+            <tr>
+                <th>Pora dnia</th>
+                <th>obowiązki</th>
+            </tr>
+            <tr>
+                <td>rano</td>
+                <td>nauka</td>
+            </tr>
+            <tr>
+                <td>południe</td>
+                <td>zajęcia dodatkowe</td>
+            </tr>
+            <tr>
+                <td>popołudnie</td>
+                <td rowspan="2"> moje hobby</td>
+                
+            </tr>
+            <tr>
+                <td>wieczór</td>
+            </tr>
+        </table>
+    </div>
+    <div id="panel3">
+        <img src="tekst.jpg" alt="technologia web">
+    </div>
+    <div id="panelglowny">
+        <p>Podaj rozmiar tekstu w procentach: <input type="number" id="number">%</p>
+        <p>
+            <select id="select">
+                <option value="1">prosty</option>
+                <option value="2">kursywa</option>
+            </select>
+        </p>
+        <p>Jakim kolorem sformatować tekst? Wybierz przycisk</p>
+        <button id="red" onclick="red()"></button>
+        <button id="green" onclick="green()"></button>
+        <button id="blue" onclick="blue()"></button>
+        <p id="p">To jest przykład paragrafu, który może być dowolnie formatowany przez JavaScript</p>
+
+    </div>
+    <div id="stopka">
+        <p><i>Formatowaniem tekstu zajmował się: Amelia</i></p>
+        <a href="formatowanie.pl">Odwiedź także</a>
+    </div>
+</body>
+</html>
